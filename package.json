@@ -1,0 +1,28 @@
+{
+  "name": "ih-animes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablovicho/ih-animes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pablovicho/ih-animes/issues"
+  },
+  "homepage": "https://github.com/pablovicho/ih-animes#readme",
+  "description": ""
+}

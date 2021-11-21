@@ -9,7 +9,7 @@ const path = require('path') //path es un método incluído en nodejs
 const connectDB = require('./config/db')
 
 // 2. MIDDLEWARES
-app.use(express.static(path.join(__dirname, "public"))) //similar a lo que habíamos hecho antes
+app.use(express.static(path.join(__dirname, 'public'))) //similar a lo que habíamos hecho antes
 
 //Configuraciones
 app.set('views', path.join(__dirname, 'views')) //motor de vistas
@@ -18,7 +18,7 @@ app.set('view engine', 'hbs')
 connectDB()
 // 3. RUTAS
 app.get('/', (req,res) => {
-res.render('index.hbs')
+res.render('index')
 })
 
 
